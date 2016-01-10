@@ -7,7 +7,7 @@
     <ProjectGuid>{509091C6-B6BE-4E1F-B833-8D5E7FBAC470}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LinearRegres</RootNamespace>
+    <RootNamespace>Regres</RootNamespace>
     <AssemblyName>LinearRegres</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -41,6 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FileFramework.cs" />
+    <Compile Include="LogisticClassifier.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
